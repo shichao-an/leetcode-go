@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-import "sort"
+import (
+	"fmt"
+	"sort"
+)
 
 func threeSum(num []int) [][]int {
 	n := len(num)
